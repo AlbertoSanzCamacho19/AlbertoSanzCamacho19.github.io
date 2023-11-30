@@ -210,7 +210,7 @@ html{
 }
 /* SECCION S K I L L S */
 .skills{
-    background-color: #252A2E;
+    background-color:#1e2326;;
     color: #fff;
     padding: 50px 20px;
 }
@@ -358,9 +358,52 @@ html{
     0%{width: 0%;}
     100%{width: 94%;}
 }
+
+/*SECCION SOFT SKILLS*/
+.softskills{
+    background-color:#252A2E;;
+    color: #fff;
+    padding: 50px 20px;
+}
+.softskills .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.softskills h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+    
+}
+.softskills .col .contenedor-intereses{
+    padding: 0px 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.softskills .col .contenedor-intereses .interes{
+    width: 300px;
+    height: 300px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}.softskills .col .contenedor-intereses .interes:hover{
+    background-color: #1CB698;
+}
+.softskills .col .contenedor-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
 /* SECCION CURRICULUM */
+
 .curriculum{
-    background-color: #1e2326;
+    background-color:#252A2E;;
     color: #fff;
     padding: 50px 20px;
 }
@@ -389,16 +432,16 @@ html{
     margin-bottom: 25px;
 }
 .curriculum .fila .izquierda{
-    border-right: 2px solid #252A2E;
+    border-right: 2px solid#1e2326;
 }
 .curriculum .fila .derecha{
     margin-top: 200px;
-    border-left: 2px solid #252A2E;
+    border-left: 2px solid#1e2326;
 }
 .curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
-    background-color: #252A2E;
+    background-color:#1e2326;
     position: relative;
 }
 .curriculum .fila .item h4{
@@ -415,6 +458,11 @@ html{
     display: block;
     color: #1CB698;
     margin-bottom: 10px;
+}
+
+.curriculum .fila .item .enlaces{
+    color: #fff;
+    
 }
 .curriculum .fila .item p{
     line-height: 24px;
@@ -467,7 +515,7 @@ html{
 }
 /* SECCION PORTFOLIO */
 .portfolio{
-    background-color: #252A2E;
+    background-color:#1e2326;
     color: #fff;
     padding: 50px 20px;
 }
@@ -537,7 +585,7 @@ html{
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
-    background-color: #1e2326;
+    background-color:#252A2E;
     color: #fff;
     padding: 50px 0;
 }
@@ -670,7 +718,7 @@ footer .arriba{
         right: 0;
         top: 75px;
         background-color: #252A2E;
-        width: 180px;
+        width: 200px;
     }
     nav.responsive ul{
         display: block !important;
