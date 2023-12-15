@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
 html{
     /* me permite deslizar cuando hago clic en los links del menu */
     scroll-behavior: smooth;
@@ -393,8 +396,13 @@ html{
     margin-bottom: 10px;
 }
 
-.curriculum .fila .item .enlaces{
+.curriculum .fila .item .enlaces:hover{
+    
     color: #fff;
+}
+.curriculum .fila .item .enlaces{
+    color:#1CB698;
+    text-decoration: none;
     
 }
 .curriculum .fila .item p{
@@ -552,13 +560,14 @@ html{
 }
 .contacto .col .info ul li{
     margin-bottom: 20px;
+    text-decoration: none;
 }
 .contacto .col .info ul li i{
     color: #1CB698;
     display: inline-block;
     margin-right: 20px;
 }
-.contacto .col .info ul li a{
+.contacto .col .info .enlaces{
     color: #fff;
     text-decoration: none;
 
@@ -574,8 +583,8 @@ footer{
 footer .redes{
     margin-bottom: 20px;
 }
-footer .redes a{
-    color: #fff;
+footer .redes li{
+    text-decoration:none;
     display: inline-block;
     text-decoration: none;
     border: 1px solid #fff;
@@ -586,6 +595,9 @@ footer .redes a{
     margin: 40px 5px;
     font-size: 20px;
     transition: .3s;
+}
+footer .redes i{
+    color:#fff;
 }
 footer .arriba{
     display: block;
