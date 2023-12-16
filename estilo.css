@@ -542,7 +542,7 @@ html{
 }
 
 .contacto .col{
-    padding: 200px;
+    padding: 200px 0;
     position: relative;
 }
 
@@ -558,11 +558,11 @@ html{
 .contacto .col .info ul{
     list-style: none;
 }
-.contacto .col .info ul li{
+.contacto .col .info div{
     margin-bottom: 20px;
     text-decoration: none;
 }
-.contacto .col .info ul li i{
+.contacto .col .info div i{
     color: #1CB698;
     display: inline-block;
     margin-right: 20px;
@@ -659,7 +659,7 @@ footer .arriba{
         display: block;
     }
     .curriculum .fila .col{
-        width: 90%;
+        width: 100%;
     }
     .curriculum .fila .derecha{
         margin-left: 20px;
